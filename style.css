@@ -1,0 +1,37 @@
+.body {
+  font-family: Nunito, sans-serif;
+}
+
+header {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #6c757d;
+}
+
+.Button {
+  border: none;
+  outline: none;
+  padding: 16px 50px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 50px;
+  background-color: #622569;
+}
+
+.Button:hover {
+  background: #b8a9c9;
+}
